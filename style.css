@@ -1,0 +1,567 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* <--Header section--> */ 
+.minibar{
+    position:relative;
+    height:25px;
+    /* margin-bottom: 25px; */
+    width: 100%;
+    justify-content: center;
+    background-color:#F2EAD3;
+    padding-top: 5px;
+    color:black;
+}
+
+.navbar{
+    position: relative;
+    height: 70px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex;
+    background-color: black;
+    color:#e6e2d3;
+    gap:15px;
+    font-size: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar:hover{
+    box-shadow: 0 0 15px #666262;
+}
+
+#logo{
+   font-size:39px;
+   font-family: cursive;
+   padding: 2px;
+   border-radius: 10px;
+   margin-left: 5px;
+}
+.hov:hover{
+    box-shadow: 0 0 15px #666262;
+}
+
+.gift{
+    margin-right: 150px;
+}
+.navbar .nav_right{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap:15px; 
+}
+.navpad{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.search_bar{
+    height:90px;
+    background-color:#deebee;
+    display: flex;
+    align-items: center;
+}
+
+.explore{
+    margin:0 120px 0 20px;
+    padding:7px;
+    border-radius: 5px;
+}
+
+.sort{
+    border: 2px solid black;
+    padding: 5px;
+    color:white;
+    background-color: black;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.popular{
+    border: 2px solid black;
+    padding: 5px 5px 5px 10px;
+    margin-right: 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+.filter{
+    border: 2px solid black;
+    padding: 5px;
+    color:white;
+    background-color: black;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+.cross{
+    display:flex;
+    gap:10px;
+    margin-right: 320px;
+    
+}
+
+/* <-- images section --> */
+
+#body{
+    background-color: #deebee;
+    height:2780px;
+}
+
+.silver_images1{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+
+.silver_images2{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+.silver_images3{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+.silver_images4{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+.silver_images5{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+.silver_images6{
+    display: flex;
+    margin:0 5px 0 5px;
+}
+.box{
+    height:450px;
+    width:400px;
+    background-color: black;
+    margin:5px 5px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.box:hover{
+    box-shadow: 0 0 15px #666262;
+}
+
+.box1{
+    background: url("image1.avif");
+    background-size: cover;
+  }
+.box1 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color:white;
+    font-weight: 500;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box2{
+    background: url("image2.avif");
+    background-size: cover;
+}
+.box2 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+    
+}
+.box3{
+    background: url("image3.avif");
+    background-size: cover;
+}
+.box3 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box4{
+    background: url("image4.avif");
+    background-size: cover;
+}
+.box4 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box5{
+    background: url("image5.avif");
+    background-size: cover;
+}
+.box5 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box6{
+    background: url("image6.avif");
+    background-size: cover;
+}
+.box6 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box7{
+    background: url("image7.avif");
+    background-size: cover;
+}
+.box7 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.box8{
+    background: url("image8.avif");
+    background-size: cover;
+}
+.box8 .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+
+.boxa{
+    background: url("imageh.avif");
+    background-size: cover;
+ 
+}
+.boxa .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color:white;
+    font-weight: 500;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxb{
+    background: url("imageaa.avif");
+    background-size: cover;
+   
+}
+.boxb .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxc{
+    background: url("imagef.avif");
+    background-size: cover;
+   
+}
+.boxc .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxd{
+    background:url("imaged.avif");
+    background-size: cover;
+   
+}
+.boxd .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxe{
+    background:url("imagee.avif");
+    background-size: cover;
+   
+}
+.boxe .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxf{
+    background: url("imagea.avif");
+    background-size: cover;
+   
+}
+.boxf .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxg{
+    background: url("imageb.avif");
+    background-size: cover;
+   
+}
+.boxg .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.boxh{
+    background: url("imagec.avif");
+    background-size: cover;
+    
+}
+.boxh .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+
+
+.a{
+    background: url("a.jpg");
+    background-size: cover;
+   
+}
+.a .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color:white;
+    font-weight: 500;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.b{
+    background: url("b.jpg");
+    background-size: cover;
+   
+}
+.b .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.c{
+    background: url("c.jpg");
+    background-size: cover;
+    
+}
+.c .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.d{
+    background: url("d.jpg");
+    background-size: cover;
+   
+}
+.d .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.e{
+    background: url("e.jpg");
+    background-size: cover;
+    
+}
+.e .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.f{
+    background:url("f.jpg");
+    background-size: cover;
+   
+}
+.f .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.g{
+    background: url("g.jpg");
+    background-size: cover;
+   
+}
+.g .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+.h{
+    background:url("h.jpg");
+    background-size: cover;
+   
+}
+.h .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color:white;
+    position:absolute;
+    margin-top: 380px;
+    margin-left: 5px;
+}
+
+/* footer */
+
+.abouts{
+    height:250px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ccd3db;
+    color: black;
+}
+
+.note{
+    text-align: center;
+    border:0px solid #c5bcbc ;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.media{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    color: rgb(217, 215, 215);
+    align-items: center;
+}
+.hash{
+    font-size: 35px;
+    font-weight: 600;
+    margin-right: 950px;
+    margin-left: 15px;
+}
+.font{
+    font-family: cursive;
+}
+
+.mails{
+    display: flex;
+    height:250px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccd3db;
+    color: black;
+}
+.call{
+    border:1px solid #c5bcbc ;
+    padding: 30px;
+    border-radius: 5px;
+}
+#mail{
+    padding: 10px 50px 10px 10px; 
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;
+}
+button{
+    padding: 10px;
+    background-color: black;
+    color: dimgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.end{
+    height: 75px;
+    display: flex;
+    background-color: #ccd3db;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  
+}
+#one{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+    font-size: 20px;
+}
+
+.ends{
+    border:1px solid transparent ;
+    padding: 15px;
+    border-radius: 5px;
+}
